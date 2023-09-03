@@ -1,0 +1,53 @@
+body{
+	font-family: arial;
+	margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.dwr-accordions {
+    width: 90%;
+    margin: 90px auto;
+}
+
+.dwr-accordion-title {
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s linear all;
+}
+
+.dwr-accordion-item {
+    background: #f4a41c;
+    margin-bottom: 25px;
+    color: #ffffff;
+    border: 2px solid #000A39;
+}
+
+.dwr-accordion-title h2 {
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.dwr-accordion-content {
+    padding: 15px;
+    background: #000a39;
+    display: none;
+}
+
+.dwr-accordion-content p {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.dwr-accordion-title i.fa.fa-chevron-down.chevron-top {
+    transform: rotate(-180deg);
+    color: red;
+    transition: 0.3sec linear all;
+}
+.dwr-accordion-title i.fa.fa-chevron-down{
+	transition: 0.3sec linear all;
+}
